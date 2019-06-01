@@ -20,6 +20,7 @@ Lista das funções do sistema:
 
 Tutorial para fazer a instalação SEM WINRAR:
 
+    //Preparação
     -Instalar o XAMPP (https://www.apachefriends.org/pt_br/download.html)
     -Criar a pasta "livraria" dentro da pasta "htdocs" (C:\xampp\htdocs)
     -Criar as pastas "ADD", "CSS" e "OBJ" dentro da pasta "livraria"
@@ -27,14 +28,23 @@ Tutorial para fazer a instalação SEM WINRAR:
     -Adicionar o arquivo "style.css" na pasta "CSS" (C:\xampp\htdocs\livraria\CSS)
     -Adicionar os arquivos "autor.php", "functions.php", "genero.php" e "livro.php" na pasta "OBJ" (C:\xampp\htdocs\livraria\OBJ)
     -Adicionar o restante dos arquivos na pasta "livraria" (C:\xampp\htdocs\livraria)
+    //Adicionando o Bando de Dados
+    -Ir ao site: http://localhost/phpmyadmin/
+    -Importar o arquivo "estagio.sql"
+    //Iniciando o site
     -Iniciar o XAMPP
     -Executar o "Apache" e "MySQL"
     -Ir ao site: http://localhost/livraria/
     
 Tutorial para fazer a instalação COM WINRAR:
 
+    //Preparação
     -Instalar o XAMPP (https://www.apachefriends.org/pt_br/download.html)
     -Extrair o arquivo "livraria.rar" para a pasta "htdocs" (C:\xampp\htdocs)
+    //Adicionando o Bando de Dados
+    -Ir ao site: http://localhost/phpmyadmin/
+    -Importar o arquivo "estagio.sql"
+    //Iniciando o site
     -Iniciar o XAMPP
     -Executar o "Apache" e "MySQL"
     -Ir ao site: http://localhost/livraria/
