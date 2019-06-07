@@ -39,7 +39,7 @@ Lista das funções do sistema:
     -Utiliza banco de dados MySQL (disponibilizado juntamente com o projeto)
     -Contém paginação
 
-Tutorial para fazer a instalação SEM WINRAR:
+Manual de instalação:
 
     //Preparação
     -Instalar o XAMPP (https://www.apachefriends.org/pt_br/download.html)
