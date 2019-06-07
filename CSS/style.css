@@ -1,0 +1,371 @@
+/*-------Geral-------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef!important;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #000!important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1::after {
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+a {
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+/*-------Barra de Navegação-------*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar ul li a {
+    color: #000!important;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.nav-link { 
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*-------Escolher Tipo de Cadastro-------*/
+
+#esc-cad p {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.esc-cad-box {
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.esc-cad-box:hover {
+    box-shadow: 0 2px 20px #333;
+}
+
+.esc-cad-head {
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.esc-cad-head h2 {
+    color: #fff!important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.esc-cad-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.planos-btn {
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-padrao {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+
+.btn-padrao:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+/*-------Box Cadastro-------*/
+
+#box {
+    width: 50%;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+
+#box p {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    padding: 0px 10px 0px 10px;
+}
+
+#box1 {
+    width: 50%;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.cad-livro {
+    padding: 15px;
+}
+
+.cad-livro p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.form-cad {
+    border-radius: 5px;
+    border: none!important;
+}
+
+.btn {
+    float: right!important;
+    margin-bottom: 15px;
+}
+
+.gen-cad-box {
+    width: 32.5%;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    padding: 10px;
+}
+
+.cad-box-control:placeholver {
+    color: #757575!important;
+}
+
+.cad-box-control {
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #efefef;
+}
+
+/*-------Sistema Consulta-------*/
+
+article {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.con-btn {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+
+.con-btn:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+.edit-liv-btn {
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.edit-liv-btn:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+.btn-alug {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 30px;
+    transition: 0.5s;
+    width: 100%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.btn-alug:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+.liv-btn {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.btn-pesq {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    text-align: center;
+    color: #fff;
+    border: none;
+    height: 40px;
+}
+
+.btn-pesq:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+.campo {
+    width: 56%;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
+}
+
+h6 {
+    text-align: right;
+}
+
+.paginacao {
+    text-align: center;
+}
+
+.btn-pag {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 15px;
+    transition: 0.5s;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-pag:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+.btn-act {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 15px;
+    transition: 0.5s;
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+/*-------Erro ao Cadastrar-------*/
+
+h3 {
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.btn-erro {
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    text-align: center;
+    height: 20%;
+}
+
+.btn-erro:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+/*-------Tela de Edição-------*/
+
+.btn-danger {
+    margin-right: 10px!important;
+}
