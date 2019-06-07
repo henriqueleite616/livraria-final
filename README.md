@@ -23,24 +23,7 @@ Tutorial para fazer a instalação SEM WINRAR:
     //Preparação
     -Instalar o XAMPP (https://www.apachefriends.org/pt_br/download.html)
     -Criar a pasta "livraria" dentro da pasta "htdocs" (C:\xampp\htdocs)
-    -Criar as pastas "ADD", "CSS" e "OBJ" dentro da pasta "livraria"
-    -Adicionar os arquivos "book.png", "config.php" e "heater.php" na pasta "ADD" (C:\xampp\htdocs\livraria\ADD)
-    -Adicionar o arquivo "style.css" na pasta "CSS" (C:\xampp\htdocs\livraria\CSS)
-    -Adicionar os arquivos "autor.php", "functions.php", "genero.php" e "livro.php" na pasta "OBJ" (C:\xampp\htdocs\livraria\OBJ)
-    -Adicionar o restante dos arquivos na pasta "livraria" (C:\xampp\htdocs\livraria)
-    //Adicionando o Bando de Dados
-    -Ir ao site: http://localhost/phpmyadmin/
-    -Importar o arquivo "estagio.sql"
-    //Iniciando o site
-    -Iniciar o XAMPP
-    -Executar o "Apache" e "MySQL"
-    -Ir ao site: http://localhost/livraria/
-    
-Tutorial para fazer a instalação COM WINRAR:
-
-    //Preparação
-    -Instalar o XAMPP (https://www.apachefriends.org/pt_br/download.html)
-    -Extrair o arquivo "livraria.rar" para a pasta "htdocs" (C:\xampp\htdocs)
+    -Adicionar os arquivos a pasta "livraria" (C:\xampp\htdocs\livraria)
     //Adicionando o Bando de Dados
     -Ir ao site: http://localhost/phpmyadmin/
     -Importar o arquivo "estagio.sql"
@@ -60,5 +43,3 @@ Para ALUGAR ou DEVOLVER livros:
     -Sendo que a QUANTIDADE DE LIVROS ALUGADOS não pode ser maior do que a QUANTIDADE DE LIVROS
     NO ESTOQUE e a QUANTIDADE DE LIVROS DEVOLVIDOS não pode ser maior do que a QUANTIDADE DE LIVROS
     ALUGADOS, ou a operação não será concluida e aparecerá uma tela de erro.
-
-Edit: Consegui aprender Orientação de Objetos e Atualizei o Projeto.
